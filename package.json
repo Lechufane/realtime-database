@@ -1,0 +1,15 @@
+{
+    "name": "challenge",
+    "version": "1.0.0",
+    "description": "Real time connection with database.",
+    "main": "index.js",
+    "keywords": [],
+    "scripts": {
+        "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^6.3.0"
+    }
+}
