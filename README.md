@@ -29,23 +29,23 @@ En el frontend, se uso `create-react-app` y `@mui/material` para crear los compo
 
 Para este proyecto se utilizo:
 
-## `pg` para la comunicacion en tiempo real con la base de datos
+#### `pg` para la comunicacion en tiempo real con la base de datos
 
-## `express` backend framework
+#### `express` backend framework
 
-## `babel` para soportar convenciones de ECS6 del backend
+#### `babel` para soportar convenciones de ECS6 del backend
 
-## `http` para levantar un servidor para los websockets
+#### `http` para levantar un servidor para los websockets
 
-## `socket.io` para la comuniacion en tiempo real del frontend y el backend
+#### `socket.io` para la comuniacion en tiempo real del frontend y el backend
 
-## `material ui && create-react-app` para la creacion del front end y los componentes
+#### `material ui && create-react-app` para la creacion del front end y los componentes
 
-## `react` frontend framework
+#### `react` frontend framework
 
-## `sequelize` para el modelado de la base de datos
+#### `sequelize` para el modelado de la base de datos
 
-## `concurrently` para levantar el proyecto con una sola instancia de `npm start`
+#### `concurrently` para levantar el proyecto con una sola instancia de `npm start`
 
 ## Mejoras
 
