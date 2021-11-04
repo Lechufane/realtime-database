@@ -43,6 +43,7 @@ pgClient.connect()
 
 pgClient.query('LISTEN canal')
     .then(data => console.log(data.command, "I'm listening"))
+    .catch(err => console.log(err));
 
 pgClient.on('notification', ({ channel, payload }) => {
     payload = JSON.parse(payload)
