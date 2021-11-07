@@ -27,12 +27,10 @@ const io = new SocketServer(server, {
     }
 });
 
-//public
-app.use(express.static(path.join(__dirname, "./public")))
-
 //middlewares
 app.use(morgan('dev'));
 app.use(express.json());
+
 
 server.listen(port, () => {
     console.log(`Levantado en localhost:${port}`);
@@ -47,6 +45,6 @@ pgClient.query('LISTEN canal')
 
 pgClient.on('notification', ({ channel, payload }) => {
     payload = JSON.parse(payload)
-    io.emit('data', payload);
+    io.emit('data', payload)
     console.log(channel, payload)
 })
