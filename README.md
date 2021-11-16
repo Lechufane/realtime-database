@@ -49,9 +49,9 @@ Para este proyecto se utilizo:
 
 ## Mejoras
 
-#### ##1). Un controlador para el modelo y no se configuraron endpoints para hacer las actualizaciones de la base de datos desde el navegador.
+#### 1). Un controlador para el modelo y no se configuraron endpoints para hacer las actualizaciones de la base de datos desde el navegador.
 
-#### ##2). El comportamiento es un poco inestable cuando lleva largos periodos de tiempo inactivo, un testing podria ayudar a mejorar problemas de comportamiento. Edit: Este comportamiento parece haberse estabilizado y quizas haya sido debido al testing.
+#### 2). El comportamiento es un poco inestable cuando lleva largos periodos de tiempo inactivo, un testing podria ayudar a mejorar problemas de comportamiento. Edit: Este comportamiento parece haberse estabilizado y quizas haya sido debido al testing.
 
 ## Conclusiones
 
