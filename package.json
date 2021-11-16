@@ -5,11 +5,17 @@
     "main": "index.js",
     "keywords": [],
     "scripts": {
-        "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+        "start": "concurrently \"cd ./backend && npm start\" \"cd ./frontend && npm start\""
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "concurrently": "^6.3.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.16.0",
+        "@babel/core": "^7.16.0",
+        "@babel/node": "^7.16.0",
+        "@babel/preset-env": "^7.16.0"
     }
 }
