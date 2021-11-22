@@ -21,10 +21,6 @@ Las herramientas a utilizar son
 
 3. Una vez ambos proyectos esten levantados se debera configurar las variables de entorno si es que las hay en un archivo `.env` para que acepte la configuracion de postgres y proporcionar los datos que se usaron para crear el servidor y la base de datos. El proyecto deberia estar funcionando ahora.
 
-## Introduccion al desafio.
-
-Buscamos que cuando se haga alguna actualizacion en la tabla `my_friends`, se transmiten los datos hacia el front end en tiempo real y se muestran notificaciones con la informacion anterior y la informacion actual.
-
 ## Solucion
 
 Primero configuramos un trigger desde la base de datos que cree registros en una tabla vacia con los datos nuevos y los datos viejos, luego configuramos un segundo trigger para que la base de datos envie un evento con la funcion `pg_notify` hacia el servidor.
